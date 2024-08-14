@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com Google Fonts</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+        @font-face {
+            font-family: 'love' ;
+            src: url(fonts/love\ story\ ttf.ttf) format('truetype'), url('love story otf.otf')format('opentype');
+            font-weight: normal;
+            font-style:normal ;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttp)
+                - embedded-opentype
+                - truetype-aat (Aplle advanced Typography)
+                - svg
+                */
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black;
+
+        }
+        h1 {
+            font-family: 'love', Times, serif;
+            font-size: 4em;
+            font-weight: normal;
+            color: rgb(49, 129, 102);
+        }
+        h2{
+            font-family:'love';
+            font-size: 2em;
+            font-weight: normal;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ea ab distinctio repellat esse! Distinctio libero, doloremque adipisci, rerum perspiciatis officiis dolore maiores voluptate obcaecati esse fuga dolorum inventore architecto?</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore, ab delectus cumque inventore quaerat amet dolor, excepturi eos, dicta optio. Omnis exercitationem temporibus excepturi veritatis expedita corporis magni sapiente?</p>
+    
+</body>
+</html>

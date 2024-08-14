@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: gray;
+    padding: 0px;
+    height: 0px;
+    margin: 0px;
+    font-style: normal;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 2em;
+    margin: 0px;
+    
+}
+
+p {
+    color: black;
+    font-size: large;
+    text-align: justify;
+}
