@@ -21,8 +21,12 @@ body {
 }
 
 header {
+    background-image: url('imagens/fotoinicial1200.png');
+    background-position: center ;
+    background-repeat: no-repeat;
     background-image: linear-gradient(to top,#f6e8e891, #b9c1bfbb, );
-    min-height: 150px;
+    width: 100%;
+    min-height: 500px;
     margin: auto;
 }
 
@@ -259,14 +263,28 @@ div.video > iframe {
 
 }
 
-.contatos {
+aside#contatos {
     background-color: var(--cor3);
+    padding: 100px;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.425);
+    width: 800px;
+    height: 300px;
     color: #000;
 }
+
+aside#contatos > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
 
 .redessociais {
     color: #000;
 }
+
+
 
 
 
