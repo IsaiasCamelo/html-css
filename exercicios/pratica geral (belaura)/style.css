@@ -264,25 +264,60 @@ div.video > iframe {
 }
 
 aside#contatos {
-    background-color: var(--cor3);
+    background-image: url('imagens/lauracontatos.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 100%;
     padding: 100px;
     margin: 0px auto;
     border-radius: 10px;
     box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.425);
     width: 800px;
-    height: 300px;
+    height: 500px;
     color: #000;
 }
 
-aside#contatos > ul {
-    list-style-position: inside;
-    columns: 2;
+.instagram > img {
+    display: inline ;
+    background-color: transparent;
+    background-position: bottom;
+    background-size: 300px;
+    padding: 50px;
+    padding-top: 500px;
+    padding-left: 73px;
+    width: 100px;
+    border-radius: 1px 1px 1px 1px black;
+  
+}
+
+.zap > img {
+    display: inline ;
+    background-color: transparent;
+    background-position: bottom;
+    background-size: 300px;
+    padding: 50px;
+    padding-top: 500px;
+    padding-left: 73px;
+    width: 100px;
+    border-radius: 1px 1px 1px 1px black;
+}
+
+.facebook > img {
+    display: inline ;
+    background-color: transparent;
+    background-position: bottom;
+    background-size: 300px;
+    padding: 50px;
+    padding-top: 500px;
+    padding-left: 73px;
+    width: 100px;
+    border-radius: 1px 1px 1px 1px black;
 }
 
 
-.redessociais {
-    color: #000;
-}
+
+
+
 
 
 
