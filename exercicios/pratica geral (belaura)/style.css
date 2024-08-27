@@ -277,42 +277,29 @@ aside#contatos {
     color: #000;
 }
 
-.instagram > img {
-    display: inline ;
-    background-color: transparent;
-    background-position: bottom;
-    background-size: 300px;
+.icon-container {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    align-items: center ; /* Centraliza os ícones verticalmente */
+    gap: 50px; /* Espaço entre os ícones */
     padding: 50px;
-    padding-top: 500px;
-    padding-left: 73px;
-    width: 100px;
-    border-radius: 1px 1px 1px 1px black;
+    margin-top: 400px; /* Espaçamento interno do contêiner */
+  }
   
-}
+  .instagram > img,
+  .zap > img,
+  .facebook > img {
+    width: 100px; /* Define o tamanho padrão para os ícones */
+    border-radius: 5px; /* Arredonda os cantos dos ícones */
+  }
+  
+  /* Ajuste de tamanho específico para o ícone do WhatsApp */
+  .zap > img {
+    width: 140px; /* Tamanho maior para o ícone do WhatsApp */
+  }
+  
 
-.zap > img {
-    display: inline ;
-    background-color: transparent;
-    background-position: bottom;
-    background-size: 300px;
-    padding: 50px;
-    padding-top: 500px;
-    padding-left: 73px;
-    width: 100px;
-    border-radius: 1px 1px 1px 1px black;
-}
 
-.facebook > img {
-    display: inline ;
-    background-color: transparent;
-    background-position: bottom;
-    background-size: 300px;
-    padding: 50px;
-    padding-top: 500px;
-    padding-left: 73px;
-    width: 100px;
-    border-radius: 1px 1px 1px 1px black;
-}
 
 
 
